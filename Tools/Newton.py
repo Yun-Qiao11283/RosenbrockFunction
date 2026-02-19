@@ -5,6 +5,7 @@ def Newton(f,x_0, tol=1e-5, max_iter=100):
     for i in range(max_iter):
         grad = f.gradient(x)
         hess = f.hessian(x)
+        hess += 1e-4 * np.eye(hess.shape[0])
         if np.linalg.norm(grad) < tol:
             return x, i
         try:
