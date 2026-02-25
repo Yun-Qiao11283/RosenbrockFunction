@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.optimize import minimize
 
-from Tools.RosenbrockFunction import RosenbrockFunction
+from Functions.RosenbrockFunction import RosenbrockFunction
 
 n = 5
 x_0 = np.array([-1.2] * n)

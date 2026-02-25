@@ -1,6 +1,6 @@
 import numpy as np
 
-from Tools.RosenbrockFunction import RosenbrockFunction
+from Functions.RosenbrockFunction import RosenbrockFunction
 from Tools.Trust_Region import TrustRegion
 
 x_0  = np.array([1,31,17,4,9])

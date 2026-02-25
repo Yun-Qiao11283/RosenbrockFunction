@@ -1,5 +1,5 @@
 import numpy as np
-from Tools.RosenbrockFunction import RosenbrockFunction
+from Functions.RosenbrockFunction import RosenbrockFunction
 from Tools.Newton import Newton
 from Tools.Steepest import Steepest
 

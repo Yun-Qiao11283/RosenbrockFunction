@@ -1,6 +1,6 @@
 import numpy as np
 
-from Tools.RosenbrockFunction import RosenbrockFunction
+from Functions.RosenbrockFunction import RosenbrockFunction
 
 x_0 = np.array([1,2,3,4,9])
 print(f"Function at {x_0}：")
